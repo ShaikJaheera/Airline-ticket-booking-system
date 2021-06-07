@@ -1,29 +1,70 @@
 # Airline-ticket-booking-system
+
+
 Requirements:
+
+
+
 1st user should ask about login or register options
+
+
 1.login
+
+
 2.register
+
+
 3.exit
+
+
 if user choose register option then the following credentials should be filled
+
+
 enter name:
+
 enter mobile number:
+
+
 enter government id:
+
+
 enter date of birth:
+
+
 enter emailid:
+
+
 enter password:
+
+
 all the credentials should be filled.
+
+
 if the user is already registed the details, then the user can directly login insted of registration.
+
+
 login details are as follows:
+
 enter mobile number:
+
 enter password:
+
 then the user gets 3 options
+
 1.book fligt
+
 2.history
+
 3.exit
+
 based on users choice user can choose the options.
+
 if the user chooses option 1. user can book the available tickets, if no flight is available then user can choose other flight options
+
 if user uses option 2 user can check the history of flights being booked by him/her.
+
 3. to exit 
+
 the user has again options he may login or register or exit based on his choice
 
 
@@ -477,7 +518,7 @@ the user has again options he may login or register or exit based on his choice
    // to take the user details..........................!     
         
     class UserDetails 
-{
+	{
 	private String name,mobileNumber,govId,dob,emailId,password;
 	private List<Travels> travels = new ArrayList<>();
 	public UserDetails(String name, String mobNum, String govId, String dob, String email, String password) 
@@ -548,76 +589,137 @@ the user has again options he may login or register or exit based on his choice
         
  OUTPUT:
 
+
 1.Register
+
 2.Login
+
 3.Exit
+
 1
+
 enter name:
+
 Jaheera Shaik
+
 enter mobilenumber:
+
 9541582365
+
 enter govidNum:
+
 25452336523
+
 enter dob(DD/MM/YYYY):
+
 28/07/1999
+
 enter emailId:
+
 shaikjaheera@gmail.com
+
 enter Password:
+
 786325
 
 1.Register
+
 2.Login
+
 3.Exit
+
 2
+
 Enter MobileNumber:
+
 9541582365
+
 Enter Password:
+
 786325
+
 
 1.BookTicket
+
 2.History
+
 3.Exit
+
 1
+
 From...
+
 vijayawada
+
 To
+
 hyderabad
+
 no flights found in the route?
 
 1.BookTicket
+
 2.History
+
 3.Exit
+
 1
+
 From...
+
 hyderabad
+
 To
+
 mumbai
-1-->ListOfFlights [flightName=Redbus, from=hyderabad, to=mumbai, startTime=13:00, endTime=24:00, price=9900]
+
+1-->ListOfFlights [flightName=Indigo, from=hyderabad, to=mumbai, startTime=13:00, endTime=24:00, price=9900]
+
 1
+
+
 enter name:
+
 sameena
+
 enter age:
+
 25
+
 booking your ticket...
+
 ticket booked successfully...!
 
 
 1.BookTicket
+
 2.History
+
 3.Exit
+
 2
+
 Journey [name=sameena, age=25, flightName=Redbus, from=hyderabad, to=mumbai, startTime=13:00, endTime=24:00, price=9900]
 
 1.BookTicket
+
 2.History
+
 3.Exit
+
 3
+
 Logging you out...
 
+
 1.Register
+
 2.Login
+
 3.Exit
+
 3
+
 Exiting...
 
   
