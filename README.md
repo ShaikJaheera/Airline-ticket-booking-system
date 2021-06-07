@@ -69,6 +69,7 @@ the user has again options he may login or register or exit based on his choice
 
 
 //verifying the new register for existing
+
 	public static boolean verityInfoOfNewRegister(List<UserDetails> user,String phNum)
 	{
 		for(UserDetails d:user) 
